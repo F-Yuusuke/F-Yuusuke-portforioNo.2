@@ -11,6 +11,11 @@ a {
     text-decoration: none;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 
 
 /* 全体 */
@@ -57,6 +62,39 @@ a {
     text-align: center;
     margin-top: 10px;
 }
+
+/* グローバルナビ */
+.gnav {
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    z-index: 100;
+}
+
+.gnav .gnav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gnav .gnav-item {
+    padding: 0 5em;
+}
+
+.gnav .gnav-item a {
+    font-size: 16px;
+    color: darkblue;
+    letter-spacing: .8em;
+}
+
+.gnav.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 8px gray;
+}
+
 
 
 
