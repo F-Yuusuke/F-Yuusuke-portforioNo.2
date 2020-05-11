@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 15px;
+    line-height: 1em;
+    letter-spacing: .5em;
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* 全体 */
+.wrapper {
+    background-color: #fff;
+}
+
+
+/* ヘッダー */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.header .logo {
+    display: block;
+}
+
+.header .logo-name {
+    display: block;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    font-size: 32px;
+    line-height: 1em;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+.header .logo-title {
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    font-size: 88px;
+    font-weight: normal;
+    color: #f39ac7;
+    line-height: 1em;
+    letter-spacing: .1em;
+}
+
+.header .logo-desc {
+    display: block;
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
