@@ -161,3 +161,32 @@ img {
 }
 
 
+/* works */
+.works-section .card-item {
+        width: 32%;
+}
+
+.works-section .card-item {
+    margin: 0 5px;
+    margin-bottom: 50px;
+}
+
+.works-section .card-image {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.works-section .card-caption-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.works-section .card-list {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
