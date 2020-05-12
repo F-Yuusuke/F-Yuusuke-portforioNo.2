@@ -5,6 +5,7 @@ body {
     line-height: 1em;
     letter-spacing: .5em;
     word-break: break-all;
+    margin-bottom: 100px;
 }
 
 a {
@@ -14,6 +15,14 @@ a {
 ul,
 li {
   list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: bottom;
+    display: block;
 }
 
 
@@ -96,8 +105,59 @@ li {
 }
 
 
+/* section */
+.section .l-inner {
+    padding: 80px 10px;
+}
+
+.section .section-title-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section .section-title {
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    letter-spacing: .2em;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #f39ac7;
+}
+
+.section .section-desc {
+    text-align: center;
+}
+
+.two-column-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.two-column-image {
+    width: 30%;
+}
+
+.two-column-image img {
+    margin: 0 auto;
+}
+
+.two-column-desc {
+    width: 62%;
+}
 
 
+/* feature */
+.feature-section .two-column-image {
+    width: 48%;
+}
 
+.feature-section .two-column-desc {
+    width: 48%;
+}
 
 
