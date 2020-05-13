@@ -334,3 +334,7 @@ img {
     text-align: center;
     background-color: #ffe8f4;
 }
+
+.page-top a {
+    color: #333;
+}
