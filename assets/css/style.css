@@ -307,3 +307,30 @@ img {
 	border-bottom: 2px solid #da3c41;
 	outline: none;
 }
+
+
+
+/* footer */
+.footer {
+    background-color: #333;
+}
+
+.footer .l-inner {
+    padding: 30px;
+}
+
+.footer .copyright {
+    font-size: 10px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.page-top {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffe8f4;
+}
