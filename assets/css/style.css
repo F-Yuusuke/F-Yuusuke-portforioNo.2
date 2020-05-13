@@ -248,3 +248,62 @@ img {
     flex-basis: 70%;
 }
 
+
+/* contacts */
+.contacts .form {
+    padding: 20px 0;
+}
+
+.contacts .form form {
+    margin: auto;
+}
+
+
+.contacts .form {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.btn {
+    width: 100%;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #f39ac7;
+    border: solid 2px #f39ac7;
+    border-radius: 3px;
+    transition: .4s;
+  }
+  
+  .btn:hover {
+    background: #f39ac7;
+    color: white;
+  }
+
+
+
+  .cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: none;
+	border-bottom: 2px solid #1b2538;
+	background: transparent;
+}
+.ef input[type='text']:focus {
+	border-bottom: 2px solid #da3c41;
+	outline: none;
+}
