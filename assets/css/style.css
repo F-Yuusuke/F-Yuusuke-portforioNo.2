@@ -32,6 +32,16 @@ img {
     background-color: #fff;
 }
 
+.l-inner {
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contents {
+    padding: 100px 0;
+}
+
 
 /* ヘッダー */
 .header {
@@ -189,4 +199,24 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
+/* about */
+.about-section .two-column-image {
+    width: 33%;
+}
+
+.about-section .two-column-desc {
+    width: 62%;
+}
+
+.two-column-image img {
+    width: 60%;
+    height: 140%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* skill */
 
