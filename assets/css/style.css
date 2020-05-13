@@ -219,4 +219,32 @@ img {
 
 
 /* skill */
+.skill-section .card-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-section .card-item {
+    flex-basis: 46%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-section .skill-icon {
+    flex-basis: 20%;
+}
+
+.skill-section .skill-icon img {
+    width: 100%;
+}
+
+.skill-section .skill-desc {
+    flex-basis: 70%;
+}
 
