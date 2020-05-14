@@ -195,6 +195,14 @@ img {
 .works-section .card-image {
     display: block;
     margin-bottom: 8px;
+    height: 150px;
+    width: 250px;
+}
+
+.works-section .card-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: .15em;
 }
 
 
