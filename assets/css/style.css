@@ -170,6 +170,13 @@ img {
     width: 48%;
 }
 
+.feature-section .two-column-image img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .feature-section .two-column-desc {
     width: 48%;
 }
